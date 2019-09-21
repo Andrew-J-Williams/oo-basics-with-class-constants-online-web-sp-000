@@ -7,7 +7,7 @@ class Shoe
   def initialize(brand)
     @brand = brand
 
-    BRAND.each do |unique_brand|
+    BRANDS.each do |unique_brand|
       if unique_brand != brand
         BRANDS << brand
       end
