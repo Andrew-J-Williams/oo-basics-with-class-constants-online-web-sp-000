@@ -8,7 +8,7 @@ class Shoe
     @brand = brand
 
     BRANDS.any? do |unique_brand|
-      if unique_brand != brand
+      if unique_brand == brand
         BRANDS << brand
       end
     end
